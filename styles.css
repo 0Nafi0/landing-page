@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.top-part {
+    background-color: #1f2937;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+.contents {
+    flex-grow: 1;
+}
+
+.brand-name {
+    font-size: 24px;
+    font-weight: 800;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+
+}
+
+li > a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+}
