@@ -32,7 +32,7 @@ li > a {
     text-decoration: none;
 }
 
-li > a, .sub-heading {
+li > a, .sub-heading, .footer {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -191,4 +191,11 @@ button {
 
 .cta-subheader {
     font-size: 18px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    background-color: #1f2937;
 }
